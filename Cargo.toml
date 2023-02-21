@@ -6,4 +6,5 @@ edition = "2021"
 [dependencies]
 async-openai = "0.7.0"
 clap = { version = "4.1.6", features = ["derive"] }
-tokio = { version = "1.25.0", features = ["rt", "macros"] }
+tokio = { version = "1.25.0", features = ["full"] }
+
