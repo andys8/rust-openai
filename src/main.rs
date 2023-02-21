@@ -26,7 +26,7 @@ async fn run_completion(input: String) {
     let request = CreateCompletionRequestArgs::default()
         .model("text-davinci-003")
         .prompt(input)
-        .max_tokens(10_u16)
+        .max_tokens(40_u16)
         .build()
         .unwrap();
 
